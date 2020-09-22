@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ClimateStories/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ClimateStories/static/js/main.489ad75f.chunk.js",
+    "main.js.map": "/ClimateStories/static/js/main.489ad75f.chunk.js.map",
+    "runtime-main.js": "/ClimateStories/static/js/runtime-main.e0ce064f.js",
+    "runtime-main.js.map": "/ClimateStories/static/js/runtime-main.e0ce064f.js.map",
+    "static/css/2.a4567992.chunk.css": "/ClimateStories/static/css/2.a4567992.chunk.css",
+    "static/js/2.57bd6f43.chunk.js": "/ClimateStories/static/js/2.57bd6f43.chunk.js",
+    "static/js/2.57bd6f43.chunk.js.map": "/ClimateStories/static/js/2.57bd6f43.chunk.js.map",
+    "index.html": "/ClimateStories/index.html",
+    "precache-manifest.88050ce127dddceabe08ee38445f7b36.js": "/ClimateStories/precache-manifest.88050ce127dddceabe08ee38445f7b36.js",
+    "service-worker.js": "/ClimateStories/service-worker.js",
+    "static/css/2.a4567992.chunk.css.map": "/ClimateStories/static/css/2.a4567992.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/ClimateStories/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.57bd6f43.chunk.js.LICENSE.txt": "/ClimateStories/static/js/2.57bd6f43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0ce064f.js",
+    "static/css/2.a4567992.chunk.css",
+    "static/js/2.57bd6f43.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.489ad75f.chunk.js"
+  ]
+}
