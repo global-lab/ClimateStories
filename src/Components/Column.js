@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.css'
 
 
 const colnames = [
@@ -15,7 +16,8 @@ const colnames = [
         title: 'Date', field: 'Date'
     },
     {
-        title: 'Link', field: 'Link'
+        title: 'Link', field: 'Link',
+        render: rowData => <a href={rowData.Link} target="_blank">{rowData.Link}</a>,
     }
 ]
 
