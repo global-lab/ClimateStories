@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ClimateStories/static/css/main.364c2fda.chunk.css",
-    "main.js": "/ClimateStories/static/js/main.9228237b.chunk.js",
-    "main.js.map": "/ClimateStories/static/js/main.9228237b.chunk.js.map",
+    "main.js": "/ClimateStories/static/js/main.f7472813.chunk.js",
+    "main.js.map": "/ClimateStories/static/js/main.f7472813.chunk.js.map",
     "runtime-main.js": "/ClimateStories/static/js/runtime-main.e0ce064f.js",
     "runtime-main.js.map": "/ClimateStories/static/js/runtime-main.e0ce064f.js.map",
     "static/css/2.a4567992.chunk.css": "/ClimateStories/static/css/2.a4567992.chunk.css",
     "static/js/2.5c4d24a7.chunk.js": "/ClimateStories/static/js/2.5c4d24a7.chunk.js",
     "static/js/2.5c4d24a7.chunk.js.map": "/ClimateStories/static/js/2.5c4d24a7.chunk.js.map",
     "index.html": "/ClimateStories/index.html",
-    "precache-manifest.7ca08ea9d586878e60798d9cf05d9031.js": "/ClimateStories/precache-manifest.7ca08ea9d586878e60798d9cf05d9031.js",
+    "precache-manifest.7f16d7745ff7e2f5a0682ce1ed812d19.js": "/ClimateStories/precache-manifest.7f16d7745ff7e2f5a0682ce1ed812d19.js",
     "service-worker.js": "/ClimateStories/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/ClimateStories/static/css/2.a4567992.chunk.css.map",
     "static/css/main.364c2fda.chunk.css.map": "/ClimateStories/static/css/main.364c2fda.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.a4567992.chunk.css",
     "static/js/2.5c4d24a7.chunk.js",
     "static/css/main.364c2fda.chunk.css",
-    "static/js/main.9228237b.chunk.js"
+    "static/js/main.f7472813.chunk.js"
   ]
 }
