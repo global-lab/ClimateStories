@@ -11,6 +11,7 @@ import { Button } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
 import projectCenters from "./Components/IQPLocations";
 import colnames from "./Components/Column";
+import { ExportToCsv } from 'export-to-csv';
 import './App.css';
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -35,6 +36,20 @@ let filteredInfo = {};
 let currentInfo = {};
 
 
+const options = {
+  fieldSeparator: ',',
+  quoteStrings: '"',
+  decimalSeparator: '.',
+  showLabels: true,
+  showTitle: true,
+  title: 'Climate Change',
+  useTextFile: false,
+  useBom: true,
+  useKeysAsHeaders: true,
+  // headers: ['Column 1', 'Column 2', etc...] <-- Won't work with useKeysAsHeaders present!
+};
+
+const csvExporter = new ExportToCsv(options);
 
 
 function FindingProjectCenters() {
@@ -100,6 +115,11 @@ export default class App extends Component{
     })
     this.onOpen("settings");
   }
+  
+  handleCSVClick = () => (e) => {
+    csvExporter.generateCsv(WCenterInfo);
+  }
+
 
   render() {
     return (
@@ -116,13 +136,33 @@ export default class App extends Component{
             <Tab id="settings" header="Project Centers" icon={<FaMapMarkedAlt />}>
               <div>
                 <Box mt={2} />
+                <Grid container spacing={3}>
+                  <Grid item xs={6}>
+                    <Button style={{
+                      backgroundColor: "#0074d9",
+                    }}
+                            onClick={this.handleButtonClick()}
+                            variant="contained" color="primary">
+                      Clear
+                    </Button>
+                  </Grid>
+                  <Grid item xs={6}>
+                    <Button style={{
+                      backgroundColor: "#0074d9",
+                    }}
+                            onClick={this.handleCSVClick()}
+                            variant="contained" color="primary">
+                      Dowload .CSV based on your filters
+                    </Button>
+                  </Grid>
+                </Grid>
+                <Box mt={2} />
                 <MaterialTable title="IQPs"
                                columns={colnames.map((c) => ({ ...c, tableData: undefined }))}
                                data={WCenterInfo}
                                options={{
                                  search: true,
-                                 exportButton: true,
-                                 pageSize:5,
+                                 pageSize:11,
                                  pageSizeOptions: [10]
                                }}/>
                 <Box mt={2} />
