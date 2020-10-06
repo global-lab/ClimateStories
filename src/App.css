@@ -24,6 +24,22 @@
   color: white;
 }
 
+.Header{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 100px;
+  z-index: 4000;
+}
+
+.WPILogo {
+  height: 162px;
+  width: 200px;
+  margin-top: 79vh;
+  position: absolute;
+  padding: 0;
+  z-index: 4000;
+}
+
 .App-link {
   color: #61dafb;
 }

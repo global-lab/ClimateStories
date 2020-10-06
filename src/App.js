@@ -13,6 +13,9 @@ import projectCenters from "./Components/IQPLocations";
 import colnames from "./Components/Column";
 import { ExportToCsv } from 'export-to-csv';
 import './App.css';
+import Grid from "@material-ui/core/Grid";
+import WPI from './imgs/WPI_Inst.png';
+import text from './imgs/text.png';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -115,7 +118,7 @@ export default class App extends Component{
     })
     this.onOpen("settings");
   }
-  
+
   handleCSVClick = () => (e) => {
     csvExporter.generateCsv(WCenterInfo);
   }
@@ -124,6 +127,12 @@ export default class App extends Component{
   render() {
     return (
         <Fragment>
+          <div className="Header">
+            <img src={text} alt="WIN"/>
+          </div>
+          <div className="WPILogo">
+            <img src={WPI} alt="WPI"/>
+          </div>
           <Sidebar
               id="sidebar"
               position="right"
