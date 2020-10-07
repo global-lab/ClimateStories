@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bff00cb05959da623588ec332cdeaa5d",
+    "revision": "cee168e638fcf88c438da50eb5e0d33a",
     "url": "/ClimateStories/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ClimateStories/static/css/2.a4567992.chunk.css"
   },
   {
-    "revision": "bd17a9ee84659d95f055",
+    "revision": "5fa960b6b16d11cfb82d",
     "url": "/ClimateStories/static/css/main.08ae1eb6.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ClimateStories/static/js/2.1caca42c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd17a9ee84659d95f055",
-    "url": "/ClimateStories/static/js/main.99213b4c.chunk.js"
+    "revision": "5fa960b6b16d11cfb82d",
+    "url": "/ClimateStories/static/js/main.eddae4fc.chunk.js"
   },
   {
     "revision": "be932c622696249650bb",
     "url": "/ClimateStories/static/js/runtime-main.e0ce064f.js"
   },
   {
-    "revision": "6811d57912e32644a83bc5d2f61f1425",
-    "url": "/ClimateStories/static/media/WPI_Inst.6811d579.png"
+    "revision": "25bd2429d998d38e275efe65d5717ce7",
+    "url": "/ClimateStories/static/media/WPI_Inst.25bd2429.png"
   }
 ]);
