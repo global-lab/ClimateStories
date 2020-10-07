@@ -32,9 +32,7 @@
 }
 
 .WPILogo {
-  height: 162px;
-  width: 200px;
-  margin-top: 79vh;
+  margin-top: 84vh;
   position: absolute;
   padding: 0;
   z-index: 4000;
