@@ -2,7 +2,7 @@ import React, {Component, Fragment, useState} from 'react';
 import {Map, Marker, TileLayer, Popup} from "react-leaflet";
 import { Sidebar, Tab } from 'react-leaflet-sidetabs';
 import { FiChevronRight } from "react-icons/fi";
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaMapMarkedAlt, FaExternalLinkAlt } from "react-icons/fa"
 import WomenInTheWorld from "./Components/WomenInTheWorldData";
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
@@ -15,7 +15,7 @@ import { ExportToCsv } from 'export-to-csv';
 import './App.css';
 import Grid from "@material-ui/core/Grid";
 import WPI from './imgs/WPI_Inst.png';
-import text from './imgs/text.png';
+import text from './imgs/txt.png';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -91,10 +91,19 @@ export default class App extends Component{
     this.setState({collapsed: true});
   }
   onOpen(id) {
-    this.setState({
-      collapsed: false,
-      selected: id,
-    })
+    if (id === "Externallink") {
+      this.setState({
+        collapsed: true,
+        selected: id,
+      })
+      window.open('http://global-lab.github.io/ClimateStories/', '_blank')
+    }
+    else {
+      this.setState({
+        collapsed: false,
+        selected: id,
+      })
+    }
   }
 
   handleClick = (country) => (e) => {
@@ -184,6 +193,7 @@ export default class App extends Component{
                 </Button>
               </div>
             </Tab>
+            <Tab id="Externallink" icon={<FaExternalLinkAlt/>} />
           </Sidebar>
           <Map style={{ height: "100vh", width: "100%" }} className="mapStyle" center={[0, 0]} zoom={3}>
             <TileLayer
