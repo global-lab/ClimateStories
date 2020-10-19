@@ -15,7 +15,7 @@ import { ExportToCsv } from 'export-to-csv';
 import './App.css';
 import Grid from "@material-ui/core/Grid";
 import WPI from './imgs/WPI_Inst.png';
-import text from './imgs/txt.png';
+import text from './imgs/text.png';
 
 delete L.Icon.Default.prototype._getIconUrl;
 
