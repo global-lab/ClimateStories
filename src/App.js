@@ -15,6 +15,7 @@ import { ExportToCsv } from 'export-to-csv';
 import './App.css';
 import Grid from "@material-ui/core/Grid";
 import WPI from './imgs/WPI_Inst.png';
+import WPISmall from './imgs/WPI_Small.png'
 import text from './imgs/text.png';
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -141,6 +142,9 @@ export default class App extends Component{
           </div>
           <div className="WPILogo">
             <img src={WPI} alt="WPI"/>
+          </div>
+          <div className="WPILogoSmall">
+            <img src={WPISmall} alt="WPI"/>
           </div>
           <Sidebar
               id="sidebar"
