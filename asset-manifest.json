@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ClimateStories/static/css/main.d3eeba7a.chunk.css",
-    "main.js": "/ClimateStories/static/js/main.ef15bf54.chunk.js",
-    "main.js.map": "/ClimateStories/static/js/main.ef15bf54.chunk.js.map",
+    "main.css": "/ClimateStories/static/css/main.b2c41038.chunk.css",
+    "main.js": "/ClimateStories/static/js/main.b44e1760.chunk.js",
+    "main.js.map": "/ClimateStories/static/js/main.b44e1760.chunk.js.map",
     "runtime-main.js": "/ClimateStories/static/js/runtime-main.e0ce064f.js",
     "runtime-main.js.map": "/ClimateStories/static/js/runtime-main.e0ce064f.js.map",
     "static/css/2.a4567992.chunk.css": "/ClimateStories/static/css/2.a4567992.chunk.css",
-    "static/js/2.bdf0cbc4.chunk.js": "/ClimateStories/static/js/2.bdf0cbc4.chunk.js",
-    "static/js/2.bdf0cbc4.chunk.js.map": "/ClimateStories/static/js/2.bdf0cbc4.chunk.js.map",
+    "static/js/2.02babeda.chunk.js": "/ClimateStories/static/js/2.02babeda.chunk.js",
+    "static/js/2.02babeda.chunk.js.map": "/ClimateStories/static/js/2.02babeda.chunk.js.map",
     "index.html": "/ClimateStories/index.html",
-    "precache-manifest.3014e9ce018be9ad275549fb1d057c45.js": "/ClimateStories/precache-manifest.3014e9ce018be9ad275549fb1d057c45.js",
+    "precache-manifest.530322c49352adcfdcc1dd0c56799d3e.js": "/ClimateStories/precache-manifest.530322c49352adcfdcc1dd0c56799d3e.js",
     "service-worker.js": "/ClimateStories/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/ClimateStories/static/css/2.a4567992.chunk.css.map",
-    "static/css/main.d3eeba7a.chunk.css.map": "/ClimateStories/static/css/main.d3eeba7a.chunk.css.map",
-    "static/js/2.bdf0cbc4.chunk.js.LICENSE.txt": "/ClimateStories/static/js/2.bdf0cbc4.chunk.js.LICENSE.txt",
+    "static/css/main.b2c41038.chunk.css.map": "/ClimateStories/static/css/main.b2c41038.chunk.css.map",
+    "static/js/2.02babeda.chunk.js.LICENSE.txt": "/ClimateStories/static/js/2.02babeda.chunk.js.LICENSE.txt",
     "static/media/WPI_Inst.png": "/ClimateStories/static/media/WPI_Inst.25bd2429.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e0ce064f.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.bdf0cbc4.chunk.js",
-    "static/css/main.d3eeba7a.chunk.css",
-    "static/js/main.ef15bf54.chunk.js"
+    "static/js/2.02babeda.chunk.js",
+    "static/css/main.b2c41038.chunk.css",
+    "static/js/main.b44e1760.chunk.js"
   ]
 }
